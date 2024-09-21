@@ -1,3 +1,6 @@
+html {
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 body {
     display: flex;
     flex-direction: column;
@@ -145,6 +148,20 @@ body .sec2 {
 }
 
 .sec4 {
+    display: flex;
+}
+
+.center {
+    border-radius: 8px;
+    padding: 36px;
+    display: flex;
+    background-color: #3882f6;
+    margin: 40px 80px;
+    align-items: center;
+}
+
+.center .head {
+    font-size: 18px;
 
 }
 
@@ -157,7 +174,7 @@ button {
     box-sizing: content-box;
     background-color: #3882f6;
     color: #F9FAF8;
-    width: 70px;
+    width: 100px;
     flex: 0;
     padding: 5px 20px;
     border-radius: 8px;
@@ -167,6 +184,8 @@ button {
     font-weight: 700;
 }
 
-.center {
-    background-color: #3882f6;
+.center button {
+    border-style: solid;
+    border-color: #F9FAF8;
+    flex: 0 0 content;
 }
