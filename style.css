@@ -10,6 +10,25 @@ body div {
 
 .header {
     background-color: #1F2937;
+    color: white;
+    display: flex;
+}
+.links {
+    display: flex;
+    gap: 24px;
+    justify-content: flex-end;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 900;
+    color: #F9FAF8;
+    margin-right: auto;
+}
+
+a {
+    color: #F9FAF8;
+    text-decoration-line: none;
 }
 
 .sec1 {
