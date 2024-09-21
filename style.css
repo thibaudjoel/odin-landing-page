@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #1F2937;
+}
+
+.sec1 {
+    background-color: #1F2937;
+
+}
+
+.sec2 {
+
+}
+
+.sec3 {
+    background-color: #E5E7EB;
+}
+
+.sec4 {
+
+}
+
+.footer {
+    background-color: #1F2937;
+
+}
+
+button {
+    background-color: #3882f6;
+}
+
+.center {
+    background-color: #3882f6;
+}
