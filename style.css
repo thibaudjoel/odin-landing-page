@@ -9,15 +9,18 @@ body div {
     flex: 1;
 }
 
-.header {
+body .header {
     background-color: #1F2937;
     color: white;
     display: flex;
+    padding-top: 18px;
 }
 .links {
     display: flex;
     gap: 24px;
     justify-content: flex-end;
+    color: #E5E7EB;
+    font-size: 18px;
 }
 
 .logo {
@@ -33,7 +36,7 @@ a {
 }
 
 .header, .sec1, .sec2, .sec3, .sec4, .footer {
-    padding: 0px 200px;
+    padding: 0px 220px;
 }
 
 .sec1 {
@@ -94,7 +97,17 @@ a {
 }
 
 button {
+    box-sizing: content-box;
     background-color: #3882f6;
+    color: #F9FAF8;
+    width: 70px;
+    flex: 0;
+    padding: 5px 20px;
+    border-radius: 8px;
+    border-style: none;
+    margin-top: 12px;
+    font-size: 18px;
+    font-weight: 700;
 }
 
 .center {
