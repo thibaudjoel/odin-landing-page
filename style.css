@@ -156,7 +156,7 @@ body .sec2 {
     padding: 36px;
     display: flex;
     background-color: #3882f6;
-    margin: 40px 80px;
+    margin: 72px 80px;
     align-items: center;
 }
 
@@ -167,7 +167,16 @@ body .sec2 {
 
 .footer {
     background-color: #1F2937;
+    height: 100px;
+    display: flex;
+    color: #E5E7EB;
+    justify-content: center;
+}
 
+.footer-text {
+    margin: 0px auto;
+    padding: 48px 0px;
+    text-align: center;
 }
 
 button {
